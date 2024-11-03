@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from unittest.mock import patch
 from io import StringIO
-from DataDriftMonitor import DataDriftMonitor
+from app.monitoring import DataDriftMonitor
 
 class TestDataDriftMonitor(unittest.TestCase):
 
